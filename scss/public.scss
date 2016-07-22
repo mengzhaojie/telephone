@@ -1,0 +1,125 @@
+body,html,.container{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+*,*:before,*:after{
+	-webkit-box-sizing:border-box;
+}
+.container{
+	background:#eee;
+	padding-top:17px;
+}
+.main{
+    height:100%;
+	width:100%;
+	padding:12%;
+	padding-bottom:0;
+    background:#fff;
+	.card-num{
+		width:100%;
+		margin-bottom: 40px;
+		p{
+		  width:100%;
+		  height:40px;
+		  margin-bottom:5px;
+		input{
+			height:38px;
+			border:none;
+			line-height:38px;
+			 
+		}
+		input::-webkit-input-placeholder{
+			font-size: 14px;
+		}
+	}
+	.in1{
+	width:100%;
+	border:none;
+    border-bottom:1px solid #eee;
+}
+.in2{
+	width:70%;
+	
+    border-bottom:1px solid #eee;
+}
+.num-p{
+	width:100%;
+	border:1px solid #eee;
+	padding-left:20px;
+	border-radius:5px;
+}
+.inn3{
+	background:#eee;
+	border:none;
+	input{
+	  background:#eee;
+	}
+}
+.yan{
+	width:30%;
+	display: inline-block;
+	height:42px;
+	line-height: 42px;
+	font-size: 14px;
+	color:#5e83e1;
+}
+	}
+  .btn{
+  	  width:100%;
+  	  margin-bottom:30px;
+  	  .bttn{
+	  	  width:100%;
+	  	  height:40px;
+	  	  line-height: 40px;
+	  	  text-align: center;
+	  	  color:#fff;
+	  	  font-size: 14px;
+	  	  margin-bottom: 20px;
+	  	  border-radius: 20px;
+  	  }
+  }
+  .login{
+  	 background: #ccc;
+  }
+  .begin{
+  	background:#5e83e1;
+  }
+  .que{
+  	 width:100%;
+  	 text-align: center;
+  	 height:35px;
+  	 line-height:35px;
+  	 color:#5e83e1;
+  	 font-size: 14px;
+  	 
+  }
+}
+.wen{
+  	 	width:15px;
+  	 	height:15px;
+  	 	text-align:center;
+  	 	line-height: 15px;
+  	 	font-size: 14px;
+  	 	display: inline-block;
+        background: #5e83e1;
+        color:#fff;
+        border-radius: 7px;
+        margin-right: 8px;
+  	 }
+.btn-right{
+	display: inline-block;
+	 width:8px;
+	 height:8px;
+	 border-right:2px solid #9c9c9c;
+	 border-bottom:2px solid #9c9c9c;
+	 transform:rotateZ(-45deg);
+     -webkit-transform:rotateZ(-45deg);
+     margin-left: 7px;
+}
+.fang{
+	width:12px;
+	height:10px;
+	background:#eee;
+	border-radius:2px;
+}
